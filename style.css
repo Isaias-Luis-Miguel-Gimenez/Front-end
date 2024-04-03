@@ -1,0 +1,87 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+
+}
+
+.mi-foto{
+    background-color: azure;
+    margin: 5%;
+}
+.mi-foto img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-color: cadetblue;
+    border: solid 6px ;
+}
+.mi-nombre-p{
+    background-color:azure;
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+    margin-left:200px;
+}
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+
+}
+
+h1{
+    background-color:azure;
+    font-size: 50px;
+}
+p{
+    background-color: azure;
+}
+.asignaturas{
+    border: solid black 5px;
+    width:400px;
+}
+.amigos{
+    border: solid black 5px;
+    width: 200px;
+}
+.compañero{
+    border: solid black 5px;
+    width: 200px;
+}
+
+.medio{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin: 5%;
+}
+.botom{ 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius:5px ;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+
+}
+.botom:hover{
+    background-color:darkslategray;
+    color: white;
+}
+.botones{ 
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.futuro{
+    color:grey;
+    border: solid black 5px;
+}
